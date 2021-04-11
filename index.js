@@ -1,8 +1,4 @@
-var rect = {
-    perimeter :(x, y) => (2*(x+y)),
-    Area : (x,y) => (x*y)
-
-}
+var rect = require('./rectangle');
 
 var solveRect = (l, b) => {
     console.log("calculating props of rectangles with Dimensions of " + l + " and " + b);
